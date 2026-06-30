@@ -16,7 +16,7 @@ from astrbot.api import logger, AstrBotConfig
     "autoreply_judge",
     "StarBot",
     "LLM智能判断群聊消息是否需要自动回复",
-    "1.2.0",
+    "1.2.1",
 )
 class AutoReplyJudgePlugin(Star):
     def __init__(self, context: Context, config: AstrBotConfig):
